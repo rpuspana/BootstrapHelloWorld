@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>thenewboston</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h3>Wells and Alert Boxes</h3>
+
+    <nav class="navbar navbar-default">
+
+        <div class="container-fluid">
+
+            <!-- Logo-->
+            <div class="navbar-header">
+
+                <!-- hamburger button appears if the window gets smaller-->
+                <!-- data-target = open menu with id=...-->
+                <button type="button" 
+                        class="navbar-toggle" 
+                        data-toggle="collapse"
+                        data-target="#mainNavBar">
+                        <!-- create hamburger button -->
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                <a href="#" class="navbar-brand">Thenewboston</a>
+            </div>
+
+            <!-- Menu items-->
+            <div class="collapse navbar-collapse" id="mainNavBar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Pictures</a></li>
+                    <li><a href="#">Headers</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+       
+        <h2>Wells are sections with boarders and grey backgrounds</h2>
+
+        <div class="well">Basic well</div>
+
+        <div class="well well-sm">Basic well</div>
+
+        <div class="alert alert-success">Congratulations, you just won the game!</div>
+
+        <div class="alert alert-info">
+            <a href="#" class="close" 
+               data-dismiss="alert"
+               aria-label="close">&times;</a>Don't forget Kelly's birthday
+        </div>
+
+        <div class="alert alert-danger fade in">
+                <a href="#" class="close" 
+                   data-dismiss="alert"
+                   aria-label="close">&times;</a>Delete account ?
+            </div>
+
+    </div>
+</body>
+</html>

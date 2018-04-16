@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>thenewboston</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+       <!-- xs phones, sm tablets, md normal desktop, lg large desktop -->
+       <h1>3 col layout</h1>
+       <div class="row">
+           <!-- take the width of 4 columns -->
+           <div class="col-md-4" style="background-color: #FF9999">First</div>
+           <div class="col-md-4" style="background-color: #99CCFF">Middle</div>
+           <div class="col-md-4" style="background-color: #00CC99">Right</div>
+
+           <p>You can highlight words or <mark>text using the mark tag</mark></p>
+
+           <blockquote>
+               <p>may the force be with you</p>
+               <footer>Luke</footer>
+           </blockquote>
+
+           <h4>Things to do when you're bored
+               <dl>
+                   <dt>Indoors</dt>
+                    <dd>- take a nap</dd>
+                    <dd>- watch Netflix for 8 hours</dd>
+                    <dt>Outdoors</dt>
+                    <dd>- go back inside</dd>
+               </dl>
+           </h4>
+       </div>
+
+       <!-- write code documentation that spands one line -->
+       <p>To set the users weight use <code>functionA(12) with an integer.</code></p>
+
+        <!-- write code documentation that spands multiple lines -->
+        <p>For multi line code use the pre tags</p>
+        <pre>
+for n in range(0, 1)
+    if (n % a):
+        print n
+        </pre>
+
+        <p>This is supposed to be keyboard input <kbd>Ctrl + Alt + Delete</kbd></p>
+
+        <!-- Build in color classes to show user success/unsuccess-->
+        <h4>Built in color classes</h4>
+        <p class="text-muted">The text muted</p>
+        <p class="text-success">Filled out the input form correctly</p>
+        <p class="text-danger">Filled out the input form wrong</p>
+
+        <p class="bg-success">Filled out the input form OK</p>
+        <p class="bg-danger">Filled out the input form wrong</p>
+
+
+        <h2>Simple table</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Points</th>
+                    <tbody>
+                        <tr>
+                            <td>Bucky</td>
+                            <td>74</td>
+                            <td>7000</td>
+                        </tr>
+                        <tr>
+                            <td>Bucky2</td>
+                            <td>7</td>
+                            <td>75</td>
+                        </tr>
+                        <tr>
+                            <td>Bucky3</td>
+                            <td>73</td>
+                            <td>333</td>
+                        </tr>
+                    </tbody>
+                </tr>
+            </thead>
+        </table>
+
+        <h2>Condensed</h2>
+        <table class="table table-condensed">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Points</th>
+                    <tbody>
+                        <tr>
+                            <td>Bucky</td>
+                            <td>74</td>
+                            <td>7000</td>
+                        </tr>
+                        <tr>
+                            <td>Bucky2</td>
+                            <td>7</td>
+                            <td>75</td>
+                        </tr>
+                        <tr>
+                            <td>Bucky3</td>
+                            <td>73</td>
+                            <td>333</td>
+                        </tr>
+                    </tbody>
+                </tr>
+            </thead>
+        </table>
+
+        <h2>Stripped table</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Points</th>
+                    <tbody>
+                        <tr>
+                            <td>Bucky</td>
+                            <td>74</td>
+                            <td>7000</td>
+                        </tr>
+                        <tr>
+                            <td>Bucky2</td>
+                            <td>7</td>
+                            <td>75</td>
+                        </tr>
+                        <tr>
+                            <td>Bucky3</td>
+                            <td>73</td>
+                            <td>333</td>
+                        </tr>
+                        <tr>
+                            <td>Bucky3</td>
+                            <td>73</td>
+                            <td>333</td>
+                        </tr>
+                    </tbody>
+                </tr>
+            </thead>
+        </table>
+
+
+        <h2>Images</h2>
+        <h4>Image presentations</h4>
+
+        <img src="./../img/sw1.jpg" class="img-rounded" width="230" height="230">
+        <img src="./../img/sw1.jpg" class="img-circle" width="230" height="230">
+
+        <h4>Responsive images - when the images is larger than the current screen</h4>
+        <img src="./img/sw1.jpg" class="img-responsive">
+        <img src="./img/sw1.jpg" class="">
+
+        
+        <h2>Responsive videos</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ClHu3XQBnGU"></iframe>
+        </div>
+    </div>
+</body>
+</html>
