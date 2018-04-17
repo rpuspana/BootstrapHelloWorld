@@ -5,7 +5,9 @@ Hello World app
 ### Technologies used
 
 * Bootstrap
-* HTML / CSS
+* HTML
+* CSS
+* jQuery
 
 ### Designed-for
 
