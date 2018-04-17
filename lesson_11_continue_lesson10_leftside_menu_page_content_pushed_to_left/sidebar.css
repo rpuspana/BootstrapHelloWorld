@@ -1,0 +1,55 @@
+/* Entire sidebar wrapper */
+#sidebar-wrapper {
+    z-index: 1;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    overflow-y: hidden; /* if content cut */
+    background-color: #2C3E50;
+    /* border: 2px solid red; */
+    /* opacity: 0.9; */
+}
+
+/* Main content (area on the right) */
+/* The proble will be that when we want to see the menu,
+   it will cover the main content */
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+    /* border: 5px solid green; */
+}
+
+/* Change the width of the sidebar when the menu is displayed */
+#wrapper.menuDisplayed #sidebar-wrapper {
+    width: 250px;
+}
+
+/* Fix the problem with the main content */
+/* When the menu is displayed show the main content starting from 
+   250 pixels on the left */
+#wrapper.menuDisplayed #page-content-wrapper {
+    padding-left: 250px;
+}
+
+/* Sidebar styling */
+.sidebar-nav {
+    padding: 0;
+    list-style: 'none';
+}
+
+/* menu items that you click */
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.sidebar-nav li a:hover {
+    background: #16A085;
+}
