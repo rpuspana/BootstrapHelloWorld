@@ -12,43 +12,68 @@
     <h3>Social network</h3>
 
     <!-- news page-->
+    <div class="container-fluid">
 
-    <h3>Phone-entire width, desktops 1/2</h3>
-    <div class="row">
-        <!-- on small devices xs, take up all the screen space 12 columns-->
-        <!-- on medium devices md, take up half the screen space 6 columns-->
-        <div class="col-xs-12 col-md-6" style="background: lightblue;">
-            Phone-entire width, desktops 1/2 - Phone-entire width, desktops 1/2 - Phone-entire width, desktops 1/2
-        </div>
-        <div class="col-xs-12 col-md-6" style="background: lightcoral;">
+        <h3>Phone-entire width, desktops 1/2</h3>
+        <div class="row">
+            <!-- on small devices xs, take up all the screen space 12 columns-->
+            <!-- on medium devices md, take up half the screen space 6 columns-->
+            <div class="col-xs-12 col-md-6" style="background: lightblue;">
                 Phone-entire width, desktops 1/2 - Phone-entire width, desktops 1/2 - Phone-entire width, desktops 1/2
+            </div>
+            <div class="col-xs-12 col-md-6" style="background: lightcoral;">
+                    Phone-entire width, desktops 1/2 - Phone-entire width, desktops 1/2 - Phone-entire width, desktops 1/2
+            </div>
+            <div class="col-xs-12 col-md-6" style="background: red;">
+                    Phone-entire width, desktops 1/2
+            </div>
         </div>
-        <div class="col-xs-12 col-md-6" style="background: red;">
-                Phone-entire width, desktops 1/2
-        </div>
-    </div>
 
-    <h3>Phones 1/2, desktops 1/3</h3>
-    <div class="row">
-        <div class="col-xs-6 col-md-4" style="background: lightblue;">
-                Phones 1/2, desktops 1/3
+        <h3>Phones 1/2, desktops 1/3</h3>
+        <div class="row">
+            <div class="col-xs-6 col-md-4" style="background: lightblue;">
+                    Phones 1/2, desktops 1/3
+            </div>
+            <div class="col-xs-6 col-md-4" style="background: lightcoral;">
+                    Phones 1/2, desktops 1/3
+            </div>
+            <div class="col-xs-6 col-md-4" style="background: red;">
+                    Phones 1/2, desktops 1/3
+            </div>
         </div>
-        <div class="col-xs-6 col-md-4" style="background: lightcoral;">
-                Phones 1/2, desktops 1/3
-        </div>
-        <div class="col-xs-6 col-md-4" style="background: red;">
-                Phones 1/2, desktops 1/3
-        </div>
-    </div>
 
-    <h3>Offset columns = padding on the left of the last column</h3>
-    <div class="row">
-        <div class="col-md-4" style="background: lightblue;">offset offset</div>
-    </div>
-    <div class="row">
-        <!-- on medium sized screens add a padding of 1 column before addin the div below -->
-        <!-- and you wasted a column: 4 + 1 = 5, so you still have 7 columns to wotk with-->
-        <div class="col-md-4 col-md-offset-1" style="background: lightblue;">offset offset</div>
+        <h3>Offset columns = padding on the left of the last column</h3>
+        <div class="row">
+            <div class="col-md-4" style="background: lightblue;">offset offset</div>
+        </div>
+        <div class="row">
+            <!-- on medium sized screens add a padding of 1 column before addin the div below -->
+            <!-- and you wasted a column: 4 + 1 = 5, so you still have 7 columns to wotk with-->
+            <div class="col-md-4 col-md-offset-1" style="background: lightblue;">offset offset</div>
+        </div>
+
+        <h3>Nested rows</h3>
+        <div class="row">
+            <div class="col-md-9" 
+                 style="background: lightseagreen;">
+                Hey I went to the movies today
+
+                <!-- comment section of a post-->
+                <div class="row">
+                    <!-- take up half of the size of the father's father column size which is 9-->
+                    <div class="col-md-6" style="background: lightslategray;">child 1</div>
+                </div>
+
+                   <!-- comment section of a post-->
+                   <div class="row">
+                        <!-- take up half of the size of the father's father column size which is 9-->
+                        <div class="col-md-6" style="background: lightsalmon;">child 2</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
     </div>
 
 </body>
